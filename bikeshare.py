@@ -185,6 +185,9 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def workspace_details():
+    print ('This project was written and modified using the Project Workspace environment set up where can do all the code on Python script, and run it with the terminal provided.")
+
 def show_data(df):
     x = 0
     show_row_data = input('\nWould you like to print raw data? Enter yes or no.\n')
