@@ -15,6 +15,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+    print ('This project use Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.')
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
@@ -183,6 +184,9 @@ def user_stats(df, city):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+def workspace_details():
+    print ('This project was written and modified using the Project Workspace environment set up where can do all the code on Python script, and run it with the terminal provided.")
 
 def show_data(df):
     x = 0
